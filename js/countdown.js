@@ -21,4 +21,4 @@ const countdownfunction = setInterval(function () {
     clockdiv.querySelector(".minutes").innerHTML = minutes;
     clockdiv.querySelector(".seconds").innerHTML = seconds;
   }
-}
+}, 1000);

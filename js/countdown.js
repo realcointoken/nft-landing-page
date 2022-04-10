@@ -1,7 +1,7 @@
 //Countdown Timer
 const clockdiv = document.getElementById("countdown");
 const countDownTime = new Date(
-  clockdiv.getAttribute("data-date")
+  clockdiv.getAttribute("Apr 30, 2022 6:00:00 PM UTC")
 ).getTime();
 
 const countdownfunction = setInterval(function () {
